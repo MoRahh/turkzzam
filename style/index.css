@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.arabic {
+  display: none;
+}
+
 :root {
   --theme-color: rgba(0, 140, 255, 0.671);
 }
@@ -315,6 +319,7 @@ body::-webkit-scrollbar-thumb {
 
 #product1 .pro img {
   width: 100%;
+  height: 330px;
   border-radius: 20px;
 }
 
@@ -767,6 +772,9 @@ footer .follow i:hover {
   }
   #product1 .pro-container .pro {
     margin: 15px;
+  }
+  #product1 .pro-container .pro img {
+    height: 250px;
   }
   #newsletter {
     height: 20vh;

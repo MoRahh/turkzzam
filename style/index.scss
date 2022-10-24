@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.arabic {
+    display: none;
+}
+
 :root {
     --theme-color: rgba(0, 140, 255, 0.671);
 }
@@ -279,6 +283,8 @@ body::-webkit-scrollbar-thumb {
 
         img {
             width: 100%;
+            height: 330px;
+
             border-radius: 20px;
         }
 
@@ -692,6 +698,10 @@ footer {
 
         .pro {
             margin: 15px;
+
+            img {
+                height: 250px;
+            }
         }
     }
 
