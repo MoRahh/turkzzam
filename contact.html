@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="/pages/contact/contact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/619210c138.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img class="logo" src="images/logohomepage.jpeg" alt="#"></a>
+
+        <div class="english">
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="pages/contact/contact.html">Contact</a></li>
+                <li>|</li>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100086681350391"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <div class="contain">
+
+        <div class="wrapper">
+
+            <div class="form">
+                <h4>GET IN TOUCH</h4>
+                <h2 class="form-headline">Send us a message</h2>
+                <form id="submit-form" action="">
+                    <p>
+                        <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                        <small class="name-error"></small>
+                    </p>
+                    <p>
+                        <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                        <small class="name-error"></small>
+                    </p>
+                    <p class="full-width">
+                        <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+                        <small></small>
+                    </p>
+                    <p class="full-width">
+                        <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*"
+                            required></textarea>
+                        <small></small>
+                    </p>
+                    <p class="full-width">
+                        <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive
+                        communications by call / email about Company's services.
+                    </p>
+                    <p class="full-width">
+                        <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                        <button class="reset-btn" onclick="reset()">Reset</button>
+                    </p>
+                </form>
+            </div>
+
+            <div class="contacts contact-wrapper">
+
+                <ul>
+                    <li>islambey Mahallesi.Abdülhmit Caddesi.Bircan Sk.No:2/1 . Arnavutköy iST, Istanbul, Turkey</li>
+                    <span class="hightlight-contact-info">
+                        <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i>
+                            TurkzzamTrading@gmail.com</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+90 539 618 99
+                                99</span></li>
+                    </span>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact-grid">
+        <img src="images/products-images/p14.jpeg" alt="">
+        <img src="images/products-images/p15.jpeg" alt="">
+        <img src="images/products-images/p16.jpeg" alt="">
+    </div>
+
+
+
+</body>
+<script src="scripts/index.js"></script>
+
+</html>

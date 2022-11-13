@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-.arabic {
-  display: none;
+.contact-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-grid img {
+  width: 375px;
+  height: 400px;
 }
 
 :root {
@@ -149,10 +165,14 @@ body::-webkit-scrollbar-thumb {
   left: 20px;
 }
 
+#bar:hover {
+  cursor: pointer;
+}
+
 #hero {
   background-image: url(../images/background.jpg);
   height: 90vh;
-  width: 91.6%;
+  width: 100%;
   background-position: top 25% right 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -279,6 +299,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  gap: 10px;
   padding-top: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -382,7 +403,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   background-image: url(../images/banner/b1.jpg);
   width: 100vw;
-  height: 30vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -400,6 +421,123 @@ body::-webkit-scrollbar-thumb {
 }
 
 #banner h2 span {
+  color: #ef3636;
+}
+
+#banner2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../images/banner/b2.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0 !important;
+}
+
+#banner2 h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner2 h2 {
+  color: white;
+  font-size: 30px;
+  padding: 14px 0;
+}
+
+#banner2 h2 span {
+  color: #ef3636;
+}
+
+#banner3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../images/banner/b3.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0 !important;
+}
+
+#banner3 h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner3 h2 {
+  color: white;
+  font-size: 30px;
+  padding: 14px 0;
+}
+
+#banner3 h2 span {
+  color: #ef3636;
+}
+
+#banner4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../images/banner/b4.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0 !important;
+}
+
+#banner4 h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner4 h2 {
+  color: white;
+  font-size: 30px;
+  padding: 14px 0;
+}
+
+#banner4 h2 span {
   color: #ef3636;
 }
 
@@ -792,7 +930,6 @@ footer .follow i:hover {
     padding: 20px 30px;
   }
   #hero {
-    padding: 0 20px;
     background-position: 55%;
   }
   #hero h4 {
