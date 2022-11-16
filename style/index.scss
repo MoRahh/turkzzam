@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-left: 1px solid rgba(125, 125, 125, .5);
+    padding-left: 20px;
+
+    a {
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
 .contact-grid {
     display: flex;
     justify-content: center;
@@ -154,7 +169,6 @@ body::-webkit-scrollbar-thumb {
 #hero {
     background-image: url(../images/background.jpg);
     height: 90vh;
-    width: 100%;
     background-position: top 25% right 0%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -261,10 +275,9 @@ body::-webkit-scrollbar-thumb {
 
     .pro-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         gap: 10px;
         padding-top: 20px;
-        flex-wrap: wrap;
         flex-direction: row;
 
     }
@@ -410,13 +423,13 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-#banner3 {
+#banner5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../images/banner/b3.jpg);
+    background-image: url(../images/banner/b1.jpg);
     width: 100vw;
     height: 70vh;
     background-size: cover;
@@ -728,7 +741,20 @@ footer {
     display: none;
 }
 
+@media (max-width:1000px) {
+    .pro-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        flex-direction: row;
+
+    }
+}
+
 @media (max-width:799px) {
+
     .section-p1 {
         padding: 40px 20px;
     }
