@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+a {
+  text-decoration: underline;
+  color: black;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +425,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   background-image: url(../images/banner/b1.jpg);
   width: 100vw;
-  height: 70vh;
+  height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -458,7 +463,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   background-image: url(../images/banner/b2.jpg);
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -495,9 +500,9 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-image: url(../images/banner/b1.jpg);
+  background-image: url(../images/banner/b3.jpg);
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -536,7 +541,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   background-image: url(../images/banner/b4.jpg);
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -555,6 +560,82 @@ body::-webkit-scrollbar-thumb {
 }
 
 #banner4 h2 span {
+  color: #ef3636;
+}
+
+#banner6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../images/banner/b6.jpg);
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner6 h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner6 h2 {
+  color: white;
+  font-size: 30px;
+  padding: 14px 0;
+}
+
+#banner6 h2 span {
+  color: #ef3636;
+}
+
+#banner7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../images/banner/b7.jpg);
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner7 h4 {
+  color: white;
+  font-size: 16px;
+}
+
+#banner7 h2 {
+  color: white;
+  font-size: 30px;
+  padding: 14px 0;
+}
+
+#banner7 h2 span {
   color: #ef3636;
 }
 
@@ -865,9 +946,57 @@ footer .follow i:hover {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  #banner {
+    width: 100vw;
+    height: 35vh;
+    background-position: left;
+  }
+  #banner2 {
+    width: 100vw;
+    height: 40vh;
+  }
+  #banner5 {
+    width: 100vw;
+    height: 35vh;
+    background-position: right;
+  }
+  #banner4 {
+    width: 100vw;
+    height: 30vh;
+    background-position: left;
+  }
 }
 
 @media (max-width: 799px) {
+  #banner {
+    width: 100vw;
+    height: 35vh;
+    background-position: left;
+  }
+  #banner2 {
+    width: 100vw;
+    height: 40vh;
+  }
+  #banner5 {
+    width: 100vw;
+    height: 35vh;
+    background-position: right;
+  }
+  #banner4 {
+    width: 100vw;
+    height: 30vh;
+    background-position: left;
+  }
+  #banner6 {
+    width: 100vw;
+    height: 30vh;
+    background-position: left;
+  }
+  #banner7 {
+    width: 100vw;
+    height: 30vh;
+    background-position: left;
+  }
   .section-p1 {
     padding: 40px 20px;
   }
@@ -929,7 +1058,7 @@ footer .follow i:hover {
   #hero {
     height: 70vh;
     padding: 0 80px;
-    background-position: top 30% right 30%;
+    background-position: top 30% right 90%;
   }
   #feature {
     -webkit-box-pack: center;
@@ -966,7 +1095,7 @@ footer .follow i:hover {
     padding: 20px 30px;
   }
   #hero {
-    background-position: 55%;
+    background-position: 10%;
   }
   #hero h4 {
     font-size: 32px;
